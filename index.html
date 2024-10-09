@@ -9,9 +9,66 @@
     <title>Eco Eats</title>
 </head>
 
-<body class="is-size-6-desktop" style="width: 1000px;">
+<body class="is-size-6-desktop px-6" style="width: 1000px;">
 
-    <header class="box columns">
+<!-- ESSAI RETENU IL MARCHE §§§§§§§§§§§§§§§§§§§§§§§§§-->
+
+    <header class=" box">
+        <nav class="card-footer">
+            <img id="logo" class="card-footer-item"
+            srcset="logoEcoEats.jpg, logoEcoEats.jpg 1.5x, logoEcoEats.jpg 2x"
+            src="logoEcoEats.jpg"
+            alt="logo EcoEats représentant des couverts au motif de feuilles" style="width: 200px;" />
+
+            <a  class="card-footer-item has-text-weight-bold has-text-primary" href="#apropos">A propos </a>
+            <a class="card-footer-item has-text-weight-bold has-text-primary" href="#menu">Menu</a>
+            <a class="card-footer-item has-text-weight-bold has-text-primary" href="#fonctionnement">Comment ça marche</a>
+        </nav>
+    </header>
+
+
+<!-- 2E ESSAI OK IL MARCHE §§§§§§§§§§§§§§§§§§§§§§§§§
+
+    <header class="box">
+        <nav class="navbar has-shadow">
+            <section class="navbar-start px-6 ">
+            <img 
+                srcset="logoEcoEats.jpg, logoEcoEats.jpg 1.5x, logoEcoEats.jpg 2x"
+                src="logoEcoEats.jpg"
+                alt="logo EcoEats représentant des couverts au motif de feuilles" style="width: 200px;" />
+            </section>
+               
+            <section class="navbar-brand has-text-centered px-6">
+                <a  class="navbar-item has-text-weight-bold has-text-primary" href="#apropos">A propos </a>
+                <a class="navbar-item has-text-weight-bold has-text-primary" href="#menu">Menu</a>
+                <a class="navbar-item has-text-weight-bold has-text-primary" href="#fonctionnement">Comment ça marche</a>
+
+                <a class="navbar-burger is-active" role="button" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </section>
+            </header>
+               -->
+
+
+                        <!-- SI RAJOUT LOGIN
+                            <section class="navbar-end px-1">
+                                <article class="buttons">
+                                    <button class="button is-success is-dark" type="button">Sign Up</button>
+                                    <button class="button is-link is-light" type="button">Sign In</button>
+                                </article>
+                            </section>
+                                       
+        </nav>
+        </header>
+        -->
+    
+
+<!-- ESSAI PAS BON
+        <header class="box columns">
         <img id="logo" class="column is-narrow"
         srcset="logoEcoEats.jpg, logoEcoEats.jpg 1.5x, logoEcoEats.jpg 2x"
         src="logoEcoEats.jpg"
@@ -22,9 +79,11 @@
             <a class="has-text-weight-bold button is-primary is-outlined mt-6 button is-focused" href="#menu">Menu</a>
             <a class="has-text-weight-bold button is-primary is-outlined mt-6 button is-focused" href="#fonctionnement">Comment ça marche</a>
         </nav>
+        </header>
+ -->
 
-
-<!--         <nav class="level is-align-items-flex-start">
+ 
+<!--   AUTRE ESSAI PAS BON      <nav class="level is-align-items-flex-start">
             <p class="level-item has-text-centered">
                 <a  class="has-text-weight-bold button is-primary is-outlined mt-6 button is-focused" href="#apropos">A propos </a>
             </p>
@@ -92,19 +151,8 @@
             <a  class="button is-primary is-focused " href="#apropos">A propos </a>
             <a class="button is-danger is-focused" href="#menu">Menu</a>
             <a class="button is-info is-focused" href="#fonctionnement">Comment ça marche</a>
-
-
-
-
  -->
 
-
-
-
-
-
-
-    </header>
 
     <section class="box" id="apropos">
         <h1 class="is-size-2-desktop">Qu'est-ce que le service de livraison de repas bio</h1>
@@ -173,41 +221,6 @@
         <p>vous n'avez plus qu'à déguster !
             régalez-vous !
         </p>
-
-
-
-        
-
-
-<!--         Choix du plan ou du nombre de repas :
-
-        Le client peut opter pour un plan (par exemple, livraison hebdomadaire) ou commander des repas ponctuels.
-
-
-        Le client choisit une date et une plage horaire pour recevoir ses repas, souvent avec des options de livraison flexible (quotidienne, hebdomadaire, etc.).
-        Paiement :
-
-        Après avoir vérifié sa commande, le client procède au paiement via différents modes disponibles (carte bancaire, PayPal, etc.).
-        Confirmation et suivi :
-
-        Une fois la commande validée, le client reçoit une confirmation par email ou notification.
-        Certains services offrent le suivi en temps réel de la livraison.
-        Réception des repas :
-
-        Les repas sont livrés à domicile, souvent dans des emballages respectueux de l'environnement. Le client n'a plus qu'à déguster !
-        Le processus est conçu pour être rapide et pratique, offrant une expérience sans effort, du choix des repas à leur livraison.
-
-
-
- -->
-
-
-
-
-
-
-
-
     </section>
 
     <aside class="box">
@@ -216,7 +229,7 @@
     <!-- pour toute question ou demande de devis, merci de rensigner ce formulaire de contact -->
     
 
-
+    <!-- FORMULAIRE : -->
     <div class="field is-horizontal">
         <div class="field-label is-normal">
           <label class="label">De</label>
@@ -350,21 +363,19 @@
 
 
 
-
-    <form>
-
-
-
-    </form>
-
-
-
-    <footer class="box">
-        <a href="pagessecondaires.html">Pages secondaires</a>
-        <a href="mentionslégales.html">Mentions légales</a>
-        <a href="resauxsociaux.html">Réseaux sociaux</a>
+<!--     <footer class="footer box">
+        <section class="content has-text-centered">
+            <a href="pagessecondaires.html">Pages secondaires</a>
+            <a href="mentionslégales.html">Mentions légales</a>
+            <a href="resauxsociaux.html">Réseaux sociaux</a>
+        </section>
     </footer>
-
+ -->
+    <footer class="card-footer box m-2">
+            <a class="card-footer-item" href="pagessecondaires.html">Pages secondaires</a>
+            <a class="card-footer-item" href="mentionslégales.html">Mentions légales</a>
+            <a class="card-footer-item" href="resauxsociaux.html">Réseaux sociaux</a>
+    </footer>
 
 
 
